@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main-content{
+    margin-top: 2px;
+    min-width: 600px;
+    max-width: 1200px;
+    min-height: 800px;
+}
+.content-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    border-bottom: 3px solid black;
+    height: 100px;
+}
+.content-head h1{
+    font-family: 'Trattatello', fantasy;
+}
+.to-do-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-table{
+    width: 100%;
+}
+.to-do-input{
+    width: 100%;
+    border: none;
+    background-color: rgb(185, 185, 185);
+    min-height: 20px;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.content-body{
+    width: 100%;
+}
